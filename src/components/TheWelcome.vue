@@ -15,7 +15,7 @@ import DocumentationIcon from './icons/IconDocumentation.vue'
     <template #icon>
       <DocumentationIcon />
     </template>
-    <template #heading>第二週 </template>
+    <template #heading>第二週 深化：方法、監聽與 AJAX</template>
   </WelcomeItem>
 
   <WelcomeItem>
