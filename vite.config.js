@@ -7,6 +7,7 @@ import Unocss from 'unocss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/vue3-practise/',
   plugins: [vue(), vueDevTools(), Unocss({})],
   resolve: {
     alias: {
