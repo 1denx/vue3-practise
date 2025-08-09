@@ -16,5 +16,6 @@ defineProps({
 <style scoped>
 h1 {
   font-weight: 500;
+  padding-left: 1rem;
 }
 </style>

@@ -1,5 +1,5 @@
-import transformerVariantGroup from '@unocss/transformer-variant-group'
-import { defineConfig, presetWind3 } from 'unocss'
+import { defineConfig, presetUno } from 'unocss'
+import { presetDaisy } from 'unocss-preset-daisy'
 
 export default defineConfig({
   theme: {
@@ -30,7 +30,8 @@ export default defineConfig({
   shortcuts: {
     'border-only-r':
       'border-r-[1px] border-r-gray-10 border-solid border-t-0 border-b-0 border-l-0',
-    btn: 'inline-block rounded-lg px-3 py-2 text-xs font-medium text-center text-white transition-colors duration-300',
+    'border-custom': 'border border-solid border-gray-20 rounded-2 p-4',
+    btn: 'inline-block rounded-lg px-3 py-2 text-xs font-medium text-center text-white transition-colors duration-300 cursor-pointer',
     'btn-outline':
       'border border-black text-gray-1 hover:border-primary hover:bg-primary hover:text-white cursor-pointer',
     'btn-primary':
@@ -44,6 +45,5 @@ export default defineConfig({
     input:
       'border border-solid rounded-lg py-2.5 mx-3 bg-white outline-none transition-2 focus:border-gray-50 focus:shadow-inset shadow-sm',
   },
-  presets: [presetWind3()],
-  transformers: [transformerVariantGroup()],
+  presets: [presetUno(), presetDaisy()],
 })
