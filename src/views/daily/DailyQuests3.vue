@@ -1,8 +1,8 @@
 <template>
-  <h1 class="mb-3">Day3 - Vue.js 的基礎魔法：v-model 表單題目</h1>
+  <h1 class="mt-1 mb-3 ml-8">Day3 - Vue.js 的基礎魔法：v-model 表單題目</h1>
   <div id="app">
     <div class="container">
-      <div class="Q1 mb-5">
+      <div class="Q1 mb-3">
         <form>
           <fieldset class="fieldset bg-base-100 border-base-300 rounded-box w-full border p-4">
             <legend class="fieldset-legend">Q1</legend>

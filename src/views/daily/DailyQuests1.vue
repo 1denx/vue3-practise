@@ -1,9 +1,9 @@
 <template>
   <div>
-    <h1 class="mb-3 ml-8">Day1 - Vue.js 的基礎魔法：v-text、v-html、v-once</h1>
+    <h1 class="mt-1 mb-3 ml-8">Day1 - Vue.js 的基礎魔法：v-text、v-html、v-once</h1>
 
     <div id="app">
-      <fieldset class="fieldset bg-base-100 border-base-300 rounded-box w-full border p-4">
+      <fieldset class="fieldset bg-base-100 border-base-300 rounded-box w-full border p-4 mb-3">
         <legend class="fieldset-legend">Q1</legend>
         <div>
           Ray 身上有 {{ RayMoney }} 元，去超商吃午餐花了 {{ lunchPrice }} 元，買了一杯飲料花了
@@ -11,22 +11,22 @@
         </div>
       </fieldset>
 
-      <fieldset class="fieldset bg-base-100 border-base-300 rounded-box w-full border p-4">
+      <fieldset class="fieldset bg-base-100 border-base-300 rounded-box w-full border p-4 mb-3">
         <legend class="fieldset-legend">Q2</legend>
         <div class="Q2" v-text="rawHTML"></div>
       </fieldset>
 
-      <fieldset class="fieldset bg-base-100 border-base-300 rounded-box w-full border p-4">
+      <fieldset class="fieldset bg-base-100 border-base-300 rounded-box w-full border p-4 mb-3">
         <legend class="fieldset-legend">Q3</legend>
         <div class="Q3" v-html="rawHTML"></div>
       </fieldset>
 
-      <fieldset class="fieldset bg-base-100 border-base-300 rounded-box w-full border p-4">
+      <fieldset class="fieldset bg-base-100 border-base-300 rounded-box w-full border p-4 mb-3">
         <legend class="fieldset-legend">Q4</legend>
         <div class="Q4" v-once>此欄位為單次綁定：去超商吃午餐花了 {{ lunchPrice }} 元</div>
       </fieldset>
 
-      <div role="alert" class="alert alert-vertical sm:alert-horizontal mt-3">
+      <div role="alert" class="alert alert-vertical sm:alert-horizontal mt-5">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -49,7 +49,7 @@
         </button>
       </div>
 
-      <div role="alert" class="alert alert-vertical sm:alert-horizontal mt-3">
+      <div role="alert" class="alert alert-vertical sm:alert-horizontal mt-5">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -68,7 +68,7 @@
           <a
             href="https://blog.csdn.net/zhaoletf/article/details/115101293"
             target="_blank"
-            class="btn btn-sm btn-primary border-black border-solid"
+            class="btn btn-sm btn-outline border-black border-solid"
           >
             點擊查看
           </a>

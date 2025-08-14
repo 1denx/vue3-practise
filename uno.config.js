@@ -33,9 +33,9 @@ export default defineConfig({
     'border-custom': 'border border-solid border-gray-20 rounded-2 p-4',
     btn: 'inline-block rounded-lg px-3 py-2 text-xs font-medium text-center text-white transition-colors duration-300 cursor-pointer',
     'btn-outline':
-      'border border-black text-gray-1 hover:border-primary hover:bg-primary hover:text-white cursor-pointer',
+      'border border-black text-primary hover:border-primary hover:bg-primary hover:text-white cursor-pointer',
     'btn-primary':
-      'border border-primary text-primary hover:bg-primary hover:text-white cursor-pointer',
+      'border border-primary bg-primary text-gray-1 hover:bg-gray-10 hover:text-primary cursor-pointer',
     'btn-add':
       'bg-transparent border border-green text-green font-semibold hover:text-white hover:bg-green-500 cursor-pointer',
     'btn-del':
