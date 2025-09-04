@@ -42,6 +42,7 @@ function linkClass(path) {
             <div class="collapse-content text-sm flex flex-col">
               <RouterLink to="/week1" :class="linkClass('/week1')">Week1</RouterLink>
               <RouterLink to="/week2" :class="linkClass('/week2')">Week2</RouterLink>
+              <RouterLink to="/week3" :class="linkClass('/week3')">Week3</RouterLink>
             </div>
           </div>
           <div class="collapse collapse-plus bg-base-100 border border-base-300">

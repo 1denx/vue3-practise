@@ -30,6 +30,8 @@ export default defineConfig({
   shortcuts: {
     'border-only-r':
       'border-r-[1px] border-r-gray-10 border-solid border-t-0 border-b-0 border-l-0',
+    'border-only-b':
+      'border-b-[1px] border-b-gray-20 border-solid border-t-0 border-r-0 border-l-0',
     'border-custom': 'border border-solid border-gray-20 rounded-2 p-4',
     btn: 'inline-block rounded-lg px-3 py-2 text-xs font-medium text-center text-white transition-colors duration-300 cursor-pointer',
     'btn-outline':
