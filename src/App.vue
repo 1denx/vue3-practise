@@ -12,10 +12,10 @@ function linkClass(path) {
 
 <template>
   <div class="wrapper grid grid-rows-1 grid-cols-8">
-    <aside id="default-sidebar" aria-label="Sidebar" class="grid-col-span-2 border-only-r">
+    <aside id="default-sidebar" aria-label="Sidebar" class="grid-col-span-1 border-only-r">
       <div class="h-full px-5 py-4 overflow-y-auto">
-        <HelloWorld msg="Vue3 前端新手營｜2025" />
-        <nav class="mt-10">
+        <HelloWorld msg="Vue3 新手營" />
+        <nav class="mt-3">
           <div class="collapse-title font-semibold flex flex-col">
             <RouterLink to="/" :class="linkClass('/')">Home</RouterLink>
           </div>
@@ -43,6 +43,9 @@ function linkClass(path) {
               <RouterLink to="/week1" :class="linkClass('/week1')">Week1</RouterLink>
               <RouterLink to="/week2" :class="linkClass('/week2')">Week2</RouterLink>
               <RouterLink to="/week3" :class="linkClass('/week3')">Week3</RouterLink>
+              <RouterLink to="/week3Advanced" :class="linkClass('/week3Advanced')"
+                >Week3 進階</RouterLink
+              >
             </div>
           </div>
           <div class="collapse collapse-plus bg-base-100 border border-base-300">
@@ -56,7 +59,7 @@ function linkClass(path) {
       </div>
     </aside>
 
-    <div class="grid-col-span-6">
+    <div class="grid-col-span-7">
       <RouterView />
     </div>
   </div>

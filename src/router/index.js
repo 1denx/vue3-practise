@@ -76,6 +76,11 @@ const router = createRouter({
       name: 'week3',
       component: () => import('../views/weekly/Week3View.vue'),
     },
+    {
+      path: '/week3Advanced',
+      name: 'week3Advanced',
+      component: () => import('../views/weekly/Week3AdvancedView.vue'),
+    },
   ],
 })
 

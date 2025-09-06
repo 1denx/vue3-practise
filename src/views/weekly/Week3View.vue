@@ -1,17 +1,17 @@
 <template>
   <div id="root">
-    <div class="container mt-5 ml-5">
-      <div class="grid grid-flow-col mb-10">
-        <div class="row-span-3">
+    <div class="mt-5 px-10">
+      <div class="grid grid-rows-1 grid-cols-4 gap-6 mb-10">
+        <div class="grid-col-span-1">
           <div class="list-group">
             <button
               type="button"
-              class="cursor-pointer bg-white border-gray-20 rounded-md hover:bg-gray-10"
+              class="cursor-pointer bg-white border-gray-20 rounded-md hover:bg-gray-10 w-full mb-1"
               v-for="drink in drinks"
               :key="drink.id"
               @click.prevent="addToCart(drink)"
             >
-              <div class="flex w-50 justify-between">
+              <div class="flex justify-between">
                 <h5 class="mb-1 font-size-5">{{ drink.name }}</h5>
                 <small class="font-size-4 mt-1">${{ drink.price }}</small>
               </div>
@@ -19,7 +19,7 @@
             </button>
           </div>
         </div>
-        <div class="col-span-1">
+        <div class="grid-col-span-3">
           <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
             <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
               <thead
